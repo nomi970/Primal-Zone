@@ -675,19 +675,19 @@ textarea {
 }
 
 .custom-file-upload::before {
-  content: ""; /* Empty content for the pseudo-element */
-  position: absolute; /* Position it absolutely */
+  content: "";
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  border-radius: 10px; /* Match the border-radius */
-  box-shadow: 0 0 0 2px rgba(195, 43, 125, 0.7), 0 0 0 4px rgba(115, 15, 135, 0.7); /* Create the dashed effect with shadow */
-  z-index: -1; /* Place the pseudo-element behind the label text */
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px rgba(195, 43, 125, 0.7), 0 0 0 4px rgba(115, 15, 135, 0.7);
+  z-index: -1;
 }
 
 .custom-file-upload i {
-  margin-right: 5px; /* Spacing between the icon and the text */
+  margin-right: 5px;
 }
 
 .talk_us_fields textarea {

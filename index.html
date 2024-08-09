@@ -763,60 +763,7 @@
 
 
     
-    <script>
-        document.addEventListener("DOMContentLoaded", function(){
-
-            var journeySwiper = new Swiper(".journeySwiper", {
-                slidesPerView: 2,
-                spaceBetween: 10,
-                pagination: {
-                  el: ".swiper-pagination",
-                  clickable:true,
-                },
-                breakpoints:{
-                    320:{
-                        slidesPerView: 1,
-                    },
-                    660:{
-                        slidesPerView: 1,
-                    },
-                    768:{
-                        slidesPerView: 2,
-                    },
-                },
-              });
-
-              var reviewSipwer = new Swiper(".reviewSipwer", {
-                slidesPerView: 3,
-                spaceBetween: 10,
-                pagination: {
-                  el: ".swiper-pagination",
-                  clickable:true,
-                },
-                breakpoints:{
-                    320:{
-                        slidesPerView: 1,
-                    },
-                    660:{
-                        slidesPerView: 1,
-                    },
-                    768:{
-                        slidesPerView: 2,
-                    },
-                    991:{
-                        slidesPerView: 3,
-                    },
-                    1024:{
-                        slidesPerView: 3,
-                    },
-                    1220:{
-                        slidesPerView: 3,
-                    },
-                },
-              });
-
-        });
-    </script>
+   
     <script>
         document.addEventListener('DOMContentLoaded', function () {
     flatpickr("#datepicker", {
@@ -828,39 +775,7 @@
 
     </script>
     <script>
-// document.addEventListener('DOMContentLoaded', function() {
-//     const timeList = document.querySelector('.time-list');
-//     const scrollUpButton = document.querySelector('.scroll-up');
-//     const scrollDownButton = document.querySelector('.scroll-down');
 
-//     const scrollAmount = 50; // Amount to scroll by
-
-//     function smoothScroll(direction) {
-//         // Get the current scroll position
-//         const currentTransform = getComputedStyle(timeList).transform;
-//         const matrix = new DOMMatrix(currentTransform);
-//         let currentY = matrix.m42 || 0; // Get current Y translation
-
-//         // Calculate new position
-//         const newY = direction === 'up' ? currentY - scrollAmount : currentY + scrollAmount;
-
-//         // Calculate the maximum scroll positions
-//         const maxScrollTop = 0; // Scroll up limit
-//         const maxScrollBottom = timeList.scrollHeight - timeList.clientHeight; // Scroll down limit
-
-//         // Stop scrolling if at the boundaries
-//         if (direction === 'up' && newY < maxScrollTop) {
-//             timeList.style.transform = `translateY(${maxScrollTop}px)`;
-//         } else if (direction === 'down' && newY > -maxScrollBottom) {
-//             timeList.style.transform = `translateY(${newY}px)`;
-//         } else {
-//             timeList.style.transform = `translateY(${Math.min(maxScrollTop, Math.max(-maxScrollBottom, newY))}px)`;
-//         }
-//     }
-
-//     scrollUpButton.addEventListener('click', () => smoothScroll('up'));
-//     scrollDownButton.addEventListener('click', () => smoothScroll('down'));
-// });
 $(function() {
     // Initialize datepicker with the current date as the minimum selectable date
     $("#datepicker").datepicker({

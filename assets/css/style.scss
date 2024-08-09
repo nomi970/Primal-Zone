@@ -542,9 +542,7 @@ body{
     border: 1px solid #707070;
     border-radius: 10px;
 }
-.pre_title{
 
-}
 .pricing__btn{
     max-width: 335px;
     height: 80px;
@@ -575,7 +573,6 @@ body{
 }
 .talk_us_fields{
     max-width: 536px;
-    
 }
 .talk_us_fields input,
 textarea{
@@ -593,7 +590,6 @@ textarea{
     padding: 0px 29px;
     color: white;
 }
-
 .custom-file-upload {
  width: 100%;
     max-width: 554px;
@@ -609,27 +605,21 @@ textarea{
     padding: 0px 29px;
     color: white;
 }
-
 .custom-file-upload::before {
-    content: ""; /* Empty content for the pseudo-element */
-    position: absolute; /* Position it absolutely */
+    content: ""; 
+    position: absolute; 
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    border-radius: 10px; /* Match the border-radius */
+    border-radius: 10px; 
     box-shadow: 0 0 0 2px rgba(195, 43, 125, 0.7), 
-                0 0 0 4px rgba(115, 15, 135, 0.7); /* Create the dashed effect with shadow */
-    z-index: -1; /* Place the pseudo-element behind the label text */
+                0 0 0 4px rgba(115, 15, 135, 0.7); 
+    z-index: -1; 
 }
-
 .custom-file-upload i {
-    margin-right: 5px; /* Spacing between the icon and the text */
+    margin-right: 5px; 
 }
-
-
-
-
 .talk_us_fields textarea{
     padding: 24px 28px;
     height: 175px;
@@ -661,83 +651,6 @@ textarea{
     gap: 30px;
     align-items: center;
 }
-
-
-
-
-
-// .flatpickr-calendar {
-//     background-color: #181818; 
-//     border-radius: 8px;
-//     border: 1px solid #6a1b9a; 
-//     color: #fff; 
-// }
-
-// .flatpickr-month {
-//     background-color: #181818; 
-//     color: #fff;
-// }
-
-// .flatpickr-weekdays, .flatpickr-days {
-//     background-color: #181818;
-// }
-
-// .flatpickr-day {
-//     color: #fff; 
-// }
-
-// .flatpickr-day:hover {
-//     background-color: #6a1b9a; 
-// }
-
-// .flatpickr-day.selected {
-//     background-color: #6a1b9a;
-//     color: #fff;
-// }
-
-// .flatpickr-prev-month, .flatpickr-next-month {
-//     color: #fff; 
-// }
-
-
-// .time-picker {
-//     position: relative;
-//     width: 120px;
-//     background-color: #181818;
-//     border-radius: 8px;
-//     border: 1px solid #6a1b9a;
-//     color: #fff;
-//     text-align: center;
-//     overflow: hidden;
-// }
-
-// .time-picker button {
-//     background-color: #181818;
-//     border: none;
-//     color: #fff;
-//     cursor: pointer;
-//     font-size: 20px;
-//     padding: 10px;
-//     width: 100%;
-// }
-
-// .time-list {
-//     max-height: 150px;
-//     overflow: hidden; 
-//     position: relative;
-//     transition: transform 0.3s ease; 
-// }
-
-// .time-item {
-//     padding: 10px 0;
-//     border-top: 1px solid #6a1b9a;
-//     border-bottom: 1px solid #6a1b9a;
-//     cursor: pointer;
-// }
-
-// .time-item:hover {
-//     background-color: #6a1b9a;
-// }
 .date_time_picker{
     display: flex;
     margin-top: 9px;
