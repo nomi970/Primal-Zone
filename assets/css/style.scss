@@ -990,8 +990,25 @@ textarea{
 .Medications_Considered_image img{
     width: 100%;
 }
-
-
+.H__J_card:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: linear all .3s;
+}
+.hero-sec-card:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: linear all .3s;
+}
+.sm_cards:hover .over__hiden img{
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: linear all .3s;
+}
+.over__hiden{
+    overflow: hidden;
+    border-radius: 8px;
+}
 
 
 

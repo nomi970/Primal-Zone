@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/bootsrap.css">
     <link rel="stylesheet" href="assets/css/swiper.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
 
@@ -19,7 +20,7 @@
 </head>
 <body>
     
-    <header class="header position-sticky top-0">
+    <header class="header position-sticky top-0 wow slideInDown" data-wow-duration="3s" data-wow-delay="0s">
         <div class="max-w-1440 mx-auto">
             <nav>
                 <ul class="d_xlg_none nav-links list-unstyled d-flex align-items-center justify-content-between gap-2">
@@ -176,9 +177,12 @@
 
     <section class="hero-section">
         <div class="container mt-5 pt-4">
-            <div class="hero-sec-card mt-5 d-flex flex-column">
+            <div class="hero-sec-card mt-5 d-flex flex-column wow slideInLeft" data-wow-duration="3s" data-wow-delay="0s">
                 <h1 class="ff_helvetica fs_38 fs_sm_24 fw_500 lh_45 text-white" style="letter-spacing: -0.44px;">Men’s Hormone & Holistic Health </h1>
-                <img width="280" class="img" height="180" src="assets/images/player.png" alt="frame" style="max-width: 280px;">
+                <div class="over__hiden">
+                    <img width="280" class="img" height="180" src="assets/images/player.png" alt="frame" style="max-width: 280px;">
+                </div>
+                
                 <p class="ff_helvetica fs_25 text-center lh_28 fw_300 text-white" style="letter-spacing: -0.25px;">We’ll provide you a personalised hormone and holistic health plan to get you back in your prime. </p>
                 <a class="nav-item fs_20 fw-normal lh-noraml text-white btn-gradient d-flex align-items-center justify-content-center" href="#">SIGNUP</a>
             </div>
@@ -188,7 +192,7 @@
     <section class="feeling-section background-logo position-relative pb-0">
         <div class="container">
             <div class="d-flex align-items-center justify-content-center justify-content-lg-between flex-lg-nowrap flex-wrap gap-4">
-                <div class="cards-wraper d-flex flex-wrap flex-lg-nowrap justify-content-center">
+                <div class="cards-wraper d-flex flex-wrap flex-lg-nowrap justify-content-center wow slideInLeft" data-wow-duration="3s" data-wow-delay="0s">
                     <div class="d-flex flex-column row-gap-23">
                         <div class="card-box">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="37" viewBox="0 0 35 37" fill="none">
@@ -205,7 +209,7 @@
                             <p class="text-white fs_18 lh_30 fw_400">Constantly running on empty?</p>
                         </div>
                     </div>
-                   <div class="mt-45 d-flex flex-column row-gap-23">
+                   <div class="mt-45 d-flex flex-column row-gap-23 ">
                     <div class="card-box">
                         <svg xmlns="http://www.w3.org/2000/svg" width="41" height="47" viewBox="0 0 41 47" fill="none">
                             <path d="M26.5219 4.29609C26.8605 3.46992 27.6658 2.9375 28.5536 2.9375H38.8036C40.0208 2.9375 41 3.91973 41 5.14062V15.4219C41 16.3123 40.4692 17.1201 39.6455 17.4598C38.8219 17.7994 37.8792 17.6158 37.2478 16.9824L34.1911 13.9164L29.3772 18.7449C31.1618 21.352 32.2143 24.5006 32.2143 27.9062C32.2143 36.8289 25.0027 44.0625 16.1071 44.0625C7.21161 44.0625 0 36.8289 0 27.9062C0 18.9836 7.21161 11.75 16.1071 11.75C19.4933 11.75 22.6415 12.7965 25.2406 14.5957L30.0545 9.76719L26.9978 6.70117C26.3663 6.06777 26.1833 5.12227 26.5219 4.29609ZM16.1071 38.1875C17.4532 38.1875 18.7861 37.9216 20.0296 37.4049C21.2732 36.8882 22.4032 36.1309 23.355 35.1762C24.3068 34.2215 25.0618 33.0881 25.5769 31.8407C26.092 30.5933 26.3571 29.2564 26.3571 27.9062C26.3571 26.5561 26.092 25.2192 25.5769 23.9718C25.0618 22.7244 24.3068 21.591 23.355 20.6363C22.4032 19.6816 21.2732 18.9243 20.0296 18.4076C18.7861 17.8909 17.4532 17.625 16.1071 17.625C14.7611 17.625 13.4282 17.8909 12.1846 18.4076C10.941 18.9243 9.8111 19.6816 8.8593 20.6363C7.9075 21.591 7.15249 22.7244 6.63738 23.9718C6.12227 25.2192 5.85714 26.5561 5.85714 27.9062C5.85714 29.2564 6.12227 30.5933 6.63738 31.8407C7.15249 33.0881 7.9075 34.2215 8.8593 35.1762C9.8111 36.1309 10.941 36.8882 12.1846 37.4049C13.4282 37.9216 14.7611 38.1875 16.1071 38.1875Z" fill="#C32B7D"/>
@@ -222,7 +226,7 @@
                     </div>
                    </div>
                 </div>
-                <div class="mt-4 mt-lg-0 content-wraper w-100 d-flex flex-column" style="max-width: 469px;">
+                <div class="mt-4 mt-lg-0 content-wraper w-100 d-flex flex-column wow slideInUp" data-wow-duration="3s" data-wow-delay="0s" style="max-width: 469px;">
                     <p class="fs_16 text-white fw_400 lh_34"><span class="gridient__span"> </span> Listen to your instincts</p>
                     <h2 class="ff_helvetica fs_44 lh_44 fw_400 text-white mt-3">Not <span class="gridient__txt">Feeling</span> Yourself?</h2>
                     <p class="ff_helvetica fs_18 lh_30 fw_300 text-white mt-33">Onset of symptoms like this can happen to Men of any age.  Hormone Health is one of the biggest Men’s Health issues not spoken about.  If you aren’t feeling yourself and are experiencing these type of symptoms, then your Hormone Health is worth evaluating.</p>
@@ -232,14 +236,14 @@
 
         </div>
         <div class="Our_Treatments_sec">
-            <div class="container">
+            <div class="container wow slideInUp" data-wow-duration="3s" data-wow-delay="0s">
                 <p class="fs_16 text-white fw_400 text-center ff_helvetica"><span class="gridient__span"></span> Transparent & Upfront</p>
                 <div class="Our_Treatments_main">
                     <h2 class="ff_helvetica fs_44 lh_44 fw_400 text-white text-center mt-1">Our <span class="gridient__txt">Treatments</span></h2>
                     <p class="ff_helvetica fs_18 lh_34 fw_300 text-white text-center mt-30 mx__525">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     <div class="row mt-5 js_center">
                         <div class="col-lg-4 col-md-6 py-2">
-                            <div class="pricing-card t1">
+                            <div class="pricing-card t1 wow slideInLeft" data-wow-duration="3s" data-wow-delay="0s">
                                 <p class="fs_18 fw_300 text-white text-center ff_helvetica">Cannabis & Peptides</p>
                                 <h2 class="mt-33 fs_50 lh_60 fw_300 text-white text-center ff_abz" style="letter-spacing: -5.5px;">$100  <span class="fs_20 lh_24" style="letter-spacing: 0.8px;">+GST</span></h2>
                                 <p class="fs_18 lh-normal fw_300 text-white text-center ff_helvetica">If you don’t qualify, we’ll<br> refund your money.</p>
@@ -260,7 +264,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 py-2">
-                            <div class="pricing-card t2">
+                            <div class="pricing-card t2 wow slideInUp" data-wow-duration="3s" data-wow-delay="0s">
                                 <p class="fs_18 fw_300 text-white text-center ff_helvetica">Men’s Hormonal Health (TRT)</p>
                                 <h2 class="mt-33 fs_50 lh_60 fw_300 text-white text-center ff_abz" style="letter-spacing: -5.5px;">$250 <span class="fs_20 lh_24" style="letter-spacing: 0.8px;">+GST</span></h2>
                                 <p class="fs_18 lh-normal fw_300 text-white text-center ff_helvetica">If you don’t qualify, we’ll<br> refund your money.</p>                                <a class="mt-33 nav-item fs_20 fw-normal lh-noraml text-white btn-gradient d-flex align-items-center justify-content-center w-100 mx-auto Start_Treatment__btn" href="#" >Get Started</a>
@@ -280,7 +284,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 py-2">
-                            <div class="pricing-card t1">
+                            <div class="pricing-card t1 wow slideInRight" data-wow-duration="3s" data-wow-delay="0s">
                                 <p class="fs_18 fw_300 text-white text-center ff_helvetica">Fertility</p>
                                 <h2 class="mt-33 fs_50 lh_60 fw_300 text-white text-center ff_abz" style="letter-spacing: -5.5px;">$175  <span class="fs_20 lh_24" style="letter-spacing: 0.8px;">+GST</span></h2>
                                 <p class="fs_18 lh-normal fw_300 text-white text-center ff_helvetica">If you don’t qualify, we’ll<br> refund your money.</p>                                <a class="mt-33 nav-item fs_20 fw-normal lh-noraml text-white btn-gradient d-flex align-items-center justify-content-center w-100 mx-auto bg_grey Start_Treatment__btn" href="#" >Get Started</a>
@@ -303,7 +307,7 @@
                 </div>
             </div>
         </d>
-        <div class="container pb-5">
+        <div class="container pb-5 wow slideInUp" data-wow-duration="3s" data-wow-delay="0s">
             
             <div class="mx-auto mt__151 mx__1029">
                 <p class="fs_16 text-white fw_400 text-center ff_helvetica"><span class="gridient__span"></span> Transparent & Upfront</p>
@@ -313,7 +317,7 @@
             </div>
 
             <div class="d-flex flex-wrap justify-content-center gap-3 mt-5 pt-2 pb-2 mb-5">
-                <div class="treatment-card w-100 d-flex flex-column align-items-center">
+                <div class="treatment-card w-100 d-flex flex-column align-items-center wow slideInLeft" data-wow-duration="3s" data-wow-delay="0s">
                     <div class="counting-box rounded-circle d-flex align-items-center justify-content-center">
                         <span class="fs_50 lh_34 fw_500 text-white ff_helvetica">1</span>
                     </div>
@@ -326,8 +330,7 @@
                         <li class="ff_helvetica fs_18 lh_27 fw_300 text-white">Pay Consulting Fee</li>
                     </ul>
                 </div>
-
-                <div class="treatment-card w-100 d-flex flex-column align-items-center">
+                <div class="treatment-card w-100 d-flex flex-column align-items-center wow slideInUp" data-wow-duration="3s" data-wow-delay="0s">
                     <div class="counting-box rounded-circle d-flex align-items-center justify-content-center">
                         <span class="fs_50 lh_34 fw_500 text-white ff_helvetica">2</span>
                     </div>
@@ -340,8 +343,7 @@
                         <li class="ff_helvetica fs_18 lh_27 fw_300 text-white">Speak with Doctor</li>
                     </ul>
                 </div>
-
-                <div class="treatment-card w-100 d-flex flex-column align-items-center">
+                <div class="treatment-card w-100 d-flex flex-column align-items-center wow slideInRight" data-wow-duration="3s" data-wow-delay="0s">
                     <div class="counting-box rounded-circle d-flex align-items-center justify-content-center">
                         <span class="fs_50 lh_34 fw_500 text-white ff_helvetica">3</span>
                     </div>
@@ -362,12 +364,12 @@
     <section class="talk_us_sec">
         <div class="container">
             <div class="talk_us_main">
-                <div class="talk_us_content">
+                <div class="talk_us_content wow slideInLeft" data-wow-duration="3s" data-wow-delay="0s">
                     <p class="fs_16 text-white fw_400 ff_helvetica"><span class="gridient__span"></span> Need a helping hand?</p>
                     <h2 class="ff_helvetica fs_44 lh_44 fw_400 text-white mt-1"><span class="gridient__txt">Talk </span>to Us</h2>
                     <p class="ff_helvetica fs_18 lh_34 fw_300 text-white mt-30 mx__525">Still not sure, have some questions about the process or need some clarity?  Book a call with our clinician team to walk you through our process and get you ready to undertake our onboarding workflow. </p>
                 </div>
-                <div class="talk_us_fields">
+                <div class="talk_us_fields wow slideInRight" data-wow-duration="3s" data-wow-delay="0s">
                     <div>
                         <input class="" type="name" name="name" id="name" placeholder="NAME e.g. John Appleseed">
                         <input class="mt-2" type="email" name="emial" id="emial" placeholder="EMAIL e.g. john@appleseed.com">
@@ -411,24 +413,33 @@
         </div>
     </section>
     <section class="Health_Journeys_sec">
-        <div class="container">
+        <div class="container wow slideInUp" data-wow-duration="3s" data-wow-delay="0s">
             <div class="Health_Journeys_main">
                 <p class="fs_16 text-white fw_400 text-center ff_helvetica"><span class="gridient__span"></span> Get Inspired, Get Started</p>
                 <h2 class="ff_helvetica fs_44 lh_44 fw_400 text-white text-center mt-2">Health <span class="gridient__txt">Journeys</span></h2>
                 <p class="ff_helvetica fs_18 lh_34 fw_300 text-white text-center mt-30 mx__525">Everybody’s journey to good health is unique and inspirational.  </p>
                 <div class="Health_Journeys_cards">
-                    <div class="H__J_card c1_bg">
-                        <img src="./assets/images/h_card_1.png" alt="h1">
+                    <div class="H__J_card c1_bg wow slideInLeft" data-wow-duration="3s" data-wow-delay="0s">
+                        <div class="over__hiden">
+                            <img src="./assets/images/h_card_1.png" alt="h1">
+                        </div>
+                        
                         <p class="fs_18 text-white fw_300 ff_helvetica mt-3">George the real-estate king of the Southern Highlands kept his sharp edge. George the real-estate king of the Southern Highlands kept.</p>
                         <h2 class="fs_18 text-white fw_500 ff_helvetica mt-4">Allan B - Executive</h2>
                     </div>
-                    <div class="H__J_card c2_bg">
-                        <img src="./assets/images/h_card_2.png" alt="h1">
+                    <div class="H__J_card c2_bg wow slideInUp" data-wow-duration="3s" data-wow-delay="0s">
+                        <div class="over__hiden">
+                            <img src="./assets/images/h_card_2.png" alt="h1">
+                        </div>
+                        
                         <p class="fs_18 text-white fw_300 ff_helvetica mt-3">George the real-estate king of the Southern Highlands kept his sharp edge. George the real-estate king of the Southern Highlands kept.</p>
                         <h2 class="fs_18 text-white fw_500 ff_helvetica mt-4">Allan B - Executive</h2>
                     </div>
-                    <div class="H__J_card c3_bg">
-                        <img src="./assets/images/h_card_3.png" alt="h1">
+                    <div class="H__J_card c3_bg wow slideInRight" data-wow-duration="3s" data-wow-delay="0s">
+                        <div class="over__hiden">
+                            <img src="./assets/images/h_card_3.png" alt="h1">
+                        </div>
+                        
                         <p class="fs_18 text-white fw_300 ff_helvetica mt-3">George the real-estate king of the Southern Highlands kept his sharp edge. George the real-estate king of the Southern Highlands kept.</p>
                         <h2 class="fs_18 text-white fw_500 ff_helvetica mt-4">Allan B - Executive</h2>
                     </div>
@@ -440,10 +451,10 @@
     <section class="Medications_Considered_sec">
         <div class="container">
             <div class="Medications_Considered_main">
-                <div class="Medications_Considered_image">
+                <div class="Medications_Considered_image wow slideInLeft" data-wow-duration="3s" data-wow-delay="0s">
                     <img src="./assets/images/Medications_Considered_im.png" alt="Medications_Considered_im">
                 </div>
-                <div class="Medications_Considered_content">
+                <div class="Medications_Considered_content wow slideInRight" data-wow-duration="3s" data-wow-delay="0s">
                     <p class="fs_16 text-white fw_400 ff_helvetica"><span class="gridient__span"></span> Sterile Compounding Labs </p>
                     <h2 class="ff_helvetica fs_44 lh_44 fw_400 text-white mt-2"><span class="gridient__txt">Medications </span>Considered </h2>
                     <p class="ff_helvetica fs_18 lh_34 fw_300 text-white mt-30 mx__525">Our team have a deep understanding and extensive clinical experience with Men’s Hormone Health.  Our Practitioners and Doctor’s will consider a variety of complimentary medications that are known to support Men’s Hormone Health.</p>
@@ -456,13 +467,13 @@
     <section class="Clinical_Data_sec">
         <div class="container">
             <div class="Clinical_Data_main">
-                <div class="Clinical_Data_content">
+                <div class="Clinical_Data_content wow slideInLeft" data-wow-duration="3s" data-wow-delay="0s">
                     <p class="fs_16 text-white fw_400 ff_helvetica"><span class="gridient__span"></span> AI Powered Data-Driven Approach </p>
                     <h2 class="ff_helvetica fs_44 lh_44 fw_400 text-white mt-2">Clinical<span class="gridient__txt"> Data  </span>is Everything</h2>
                     <p class="ff_helvetica fs_18 lh_34 fw_300 text-white mt-30">At Primal Zone, we are working with experts in the field to ensure we are using clinical data to drive the best outcomes, personalised for you.   In conjunction with the University of Canberra, our team are conducting studies about TRT.  If you a TRT patient, please consider taking the anonymous survey.  </p>
                     <a class="nav-item fs_20 fw-normal lh-noraml text-white btn-gradient d-flex align-items-center justify-content-center w-100 mt-33 Start_Treatment__btn" href="#">Take the Anonymous Survey</a>
                 </div>
-                <div class="Clinical_Data_im">
+                <div class="Clinical_Data_im wow slideInRight" data-wow-duration="3s" data-wow-delay="0s">
                     <img width="319" height="319" src="./assets/images/university-of-canberra.png" alt="university-of-canberra">
                 </div>
             </div>
@@ -471,12 +482,12 @@
     <section class="faqs-section position-relative background-logo">
         <div class="container">
             <div class="faqs_main">
-                <div class="faqs_content">
+                <div class="faqs_content wow slideInLeft" data-wow-duration="3s" data-wow-delay="0s">
                     <p class="fs_16 text-white fw_400 ff_helvetica"><span class="gridient__span"></span> Educate yourself </p>
                         <h2 class="ff_helvetica fs_44 lh_44 fw_400 text-white mt-2">Frequently Asked <span class="gridient__txt">Questions</span></h2>
                         <p class="ff_helvetica fs_18 lh_34 fw_300 text-white mt-30">Here is a quick list of all the frequent questions our team receive and our responses for your conveneience. </p>
                 </div>
-                <div class="faqs_questions">
+                <div class="faqs_questions wow slideInRight" data-wow-duration="3s" data-wow-delay="0s">
                     <div class="accordion" id="faqsAccordions">
                         <div class="accordion-item rounded-0 border-0 bg-transparent">
                           <h2 class="accordion-header">
@@ -572,14 +583,14 @@
         </div>
     </section>
     <section class="reviews-section">
-        <div class="container">
+        <div class="container wow slideInUp" data-wow-duration="3s" data-wow-delay="0s">
             <div class="mx_761 text-center">
                 <p class="fs_16 text-white fw_400 ff_helvetica"><span class="gridient__span"></span> We value your feedback </p>
                 <h2 class="ff_helvetica fs_44 lh_44 fw_400 text-white mt-2">Customer <span class="gridient__txt">Reviews</span></h2>
                 <p class="ff_helvetica fs_18 lh_29 fw_300 text-white mt-30">We started Primal Zone as patients ourselves.  Our prime directive is delivering the easiest, most convenient and highest quality experience possible with great economy.  Patients are at the centre of our universe and we are obsessed with making the experience outstanding. </p>
             </div>
             <div class="review-card_main">
-                <div class="review-card d-flex flex-column justify-content-between gap-4 review_card1">
+                <div class="review-card d-flex flex-column justify-content-between gap-4 review_card1 wow slideInLeft" data-wow-duration="3s" data-wow-delay="0s">
                     <div>
                         <p class="fst-italic ff_helvetica fs_18 lh_27 fw_300 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     </div>
@@ -598,7 +609,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="review-card d-flex flex-column justify-content-between review_card2">
+                <div class="review-card d-flex flex-column justify-content-between review_card2 wow slideInUp" data-wow-duration="3s" data-wow-delay="0s">
                     <div>
                         <p class="fst-italic ff_helvetica fs_18 lh_27 fw_300 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     </div>
@@ -617,7 +628,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="review-card d-flex flex-column justify-content-between review_card3">
+                <div class="review-card d-flex flex-column justify-content-between review_card3 wow slideInRight" data-wow-duration="3s" data-wow-delay="0s">
                     <div>
                         <p class="fst-italic ff_helvetica fs_18 lh_27 fw_300 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     </div>
@@ -644,12 +655,12 @@
     <section class="Contact_Form_sec">
         <div class="container">
             <div class="Contact_Form_main">
-                <div class="Contact_Form_content">
+                <div class="Contact_Form_content wow slideInLeft" data-wow-duration="3s" data-wow-delay="0s">
                     <p class="fs_16 text-white fw_400 ff_helvetica"><span class="gridient__span"></span> Get in touch </p>
                     <h2 class="ff_helvetica fs_44 lh_44 fw_400 text-white mt-2"><span class="gridient__txt">Contact </span>Form</h2>
                     <p class="ff_helvetica fs_18 lh_29 fw_300 text-white mt-30">Got a questions or inquiry?  Fill out the form here and our team will respond in short order. </p>
                 </div>
-                <div class="Contact_Form">
+                <div class="Contact_Form wow slideInRight" data-wow-duration="3s" data-wow-delay="0s">
                     <div class="talk_us_fields">
                         <input class="" type="name" name="name" id="name1" placeholder="NAME e.g. John Appleseed">
                         <input class="mt-2" type="email" name="emial1" id="emial1" placeholder="EMAIL e.g. john@appleseed.com">
@@ -670,7 +681,7 @@
         </div>
     </section>
     <section class="Social_Media_sec">
-        <div class="container">
+        <div class="container wow slideInUp" data-wow-duration="3s" data-wow-delay="0s">
             <div class="Social_Media_main">
                 <div class="mx_547 text-center">
                     <p class="fs_16 text-white fw_400 ff_helvetica"><span class="gridient__span"></span> Stay in touch </p>
@@ -679,18 +690,27 @@
                    
                 </div>
                 <div class="Social_Media_cards">
-                    <div class="sm_cards">
-                        <img class="img" width="286" height="199" src="./assets/images/h_card_1.png" alt="h_card_1">
+                    <div class="sm_cards wow slideInLeft" data-wow-duration="3s" data-wow-delay="0s">
+                        <div class="over__hiden">
+                            <img class="img" width="286" height="199" src="./assets/images/h_card_1.png" alt="h_card_1">
+                        </div>
+                       
                         <p class="fst-italic ff_helvetica fs_18 lh_27 fw_300 text-white mt-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <a class="mt-25 d-block text-center" href="#"><img src="./assets/images/Instagram_icon.png" alt="Instagram_icon"></a>
                     </div>
-                    <div class="sm_cards">
-                        <img class="img" width="286" height="199" src="./assets/images/h_card_2.png" alt="h_card_2">
+                    <div class="sm_cards wow slideInUp" data-wow-duration="3s" data-wow-delay="0s">
+                        <div class="over__hiden">
+                            <img class="img" width="286" height="199" src="./assets/images/h_card_2.png" alt="h_card_2">
+                        </div>
+                       
                         <p class="fst-italic ff_helvetica fs_18 lh_27 fw_300 text-white mt-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <a class="mt-25 d-block text-center" href="#"><img src="./assets/images/Instagram_icon.png" alt="Instagram_icon"></a>
                     </div>
-                    <div class="sm_cards">
-                        <img class="img" width="286" height="199" src="./assets/images/h_card_3.png" alt="h_card_3">
+                    <div class="sm_cards wow slideInRight" data-wow-duration="3s" data-wow-delay="0s">
+                        <div class="over__hiden">
+                            <img class="img" width="286" height="199" src="./assets/images/h_card_3.png" alt="h_card_3">
+                        </div>
+                        
                         <p class="fst-italic ff_helvetica fs_18 lh_27 fw_300 text-white mt-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <a class="mt-25 d-block text-center" href="#"><img src="./assets/images/Instagram_icon.png" alt="Instagram_icon"></a>
                     </div>
@@ -704,7 +724,7 @@
             </div>
         </div>
     </section>
-    <section class="footer_sec">
+    <section class="footer_sec wow slideInUp" data-wow-duration="3s" data-wow-delay="0s">
         <div class="container">
             <div class="footer_links">
                 <div class="d-flex w-100 flex-wrap gap-3">
@@ -758,9 +778,12 @@
     <script src="assets/js/bootstrap.js"></script>  <!-- Bootsrap 5.3 -->
     <script src="assets/js/swiper.js"></script>     <!-- Swiper Slider 11 -->
     <script src="assets/js/script.js"></script>     <!-- Custom Script -->
+    <script src="./assets/js/wow.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-
+    <script>
+        new WOW().init();
+    </script>
 
     
    

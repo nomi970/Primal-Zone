@@ -1136,6 +1136,29 @@ textarea {
   width: 100%;
 }
 
+.H__J_card:hover img {
+  transform: scale(1.2);
+  overflow: hidden;
+  transition: linear all 0.3s;
+}
+
+.hero-sec-card:hover img {
+  transform: scale(1.2);
+  overflow: hidden;
+  transition: linear all 0.3s;
+}
+
+.sm_cards:hover .over__hiden img {
+  transform: scale(1.2);
+  overflow: hidden;
+  transition: linear all 0.3s;
+}
+
+.over__hiden {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
 @media (max-width: 1240px) {
   .nav-item {
     font-size: 16px;
